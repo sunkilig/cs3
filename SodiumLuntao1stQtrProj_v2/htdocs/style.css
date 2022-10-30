@@ -1,0 +1,58 @@
+* {
+    background-color: #faf3dd;
+}
+
+.title {
+    font-size: 30px;
+	color:#70E000;
+    padding-top: 35px;
+    vertical-align: top;
+    text-align: center;
+    align-items: center;
+    line-height: 0px;
+}
+	
+.sub {
+    line-height: 0px;
+    font-size: 20px;
+	color:#007200;
+	padding-top:20px;
+    vertical-align: center;
+    text-align: center;
+    align-items: center;
+}
+
+#127 {
+	padding-top:120px;
+	position: absolute;
+	left: 210px;
+}
+
+#WAYV {
+	padding-top:120px;
+	padding-left:50px;
+	padding-right:50px;
+}
+
+#dream {
+	position: absolute;
+	top: 255px;
+	left: 900px;
+	
+}
+figcaption.a{
+	position: absolute;
+	left: 220px;
+	top: 410px;
+	
+}
+figcaption.b{
+	position: absolute;
+	top: 410px;
+	left: 560px;
+}
+figcaption.c{
+	position: absolute;
+	top: 410px;
+	left:930px;
+}
