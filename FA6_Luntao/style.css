@@ -1,0 +1,45 @@
+*{
+    font-family: Sans-serif;
+}
+.x{
+    margin-right: 5px;
+    border: 1px solid black;
+    font-size: 30px;
+    color: white;
+    background-color: DarkSlateBlue;
+}
+.y{
+    border: 1px solid black;
+    font-size: 30px;
+    color: white;
+    background-color: #5F9EA0;
+}
+a:link{
+    color: rgb(250, 128, 114);
+    text-decoration: none;
+}
+a:active{
+    color: #808080;
+    text-decoration: none;
+}
+.a, .b{
+    border: 1px solid black;
+    width: 10%;
+    padding-bottom: 10%;
+    font-size: 20px
+}
+#firstDiv:target{
+    background-color: rgb(106, 90, 205);
+    color: #DCDCDC;
+    width: 10%;
+    padding-bottom: 10%;
+    color: Goldenrod;
+    font-size: 20px;
+}
+#secondDiv:target{
+    border: 10px dotted green;
+    width: 10%;
+    padding-bottom: 10%;
+    font-size: 20px;
+    background-color: #8FBC8B;
+}
