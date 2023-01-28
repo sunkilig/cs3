@@ -1,0 +1,113 @@
+* {
+   background-color: #000000;
+}
+
+body{
+  margin:0;
+}
+
+.title {
+    font-size: 100px;
+	color: neonGreen;
+    padding-top: 150px;
+    vertical-align: center;
+    text-align: center;
+    align-items: center;
+    line-height: 0px;
+}
+
+.title:hover { 
+  transform: scale(0.9);
+  cursor: pointer;
+  transition: 1s;
+
+}
+
+.title:active{ 
+  color:#ABEBC6;
+
+}
+
+#topnav {
+  overflow: hidden;
+  display:block;
+  background-color: #474646;
+  top:0px;
+  left:0px;
+  right:0px;
+  position:relative;
+  filter: drop-shadow(0px 0px 10px black);
+}
+
+#topnav a {
+  background-color: #474646;
+  display: block;
+  float:left;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size:18px;
+}
+
+#topnav a:hover {
+  background-color: #ddd;
+  color: black;
+	
+}
+.sub {
+    line-height: 0px;
+    font-size: 25px;
+	color:#00FF0C;
+	padding-top: 25px;
+    vertical-align: center;
+    text-align: center;
+    align-items: center;
+}
+.socmed-icons {
+  	display: flex;
+  	width: 50%;
+	height: 50px;
+	margin: auto;
+	justify-content: center;
+  	align-items: center;
+}
+
+.socmed-icons a {
+  	width: 35px;
+  	height: 35px;
+  	border-radius: 5px;
+  	margin-right: 0.5rem;
+  	transition: 0.5s;
+}
+
+.socmed-icons a:hover {
+}
+
+#fb{
+  background: url('images/sprite_fb.png') no-repeat 72.059% 29.412%;
+	background-size: 236px 236px;
+	width: 40px;
+	height: 40px;
+}
+
+#insta{
+  background: url('images/sprite_insta.png') no-repeat 7.353% 7.353%;
+	background-size: 236px 236px;
+	width: 40px;
+	height: 40px;
+}
+
+#twt{
+  background: url('images/sprite_twt.png') no-repeat 77.778% 86.667%;
+	background-size: 236px 236px;
+	width: 40px;
+	height: 40px;
+}
+
+footer{
+	text-align: center;
+	margin: 0 0 1.25vw 0;
+	font-size: 14px;
+	color: neonGreen;
+}
