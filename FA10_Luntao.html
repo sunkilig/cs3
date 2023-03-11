@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FA10_Luntao</title>
+</head>
+<body>
+	<h1>Random Number Breakdown</h1>
+	<p>Click the button to generate a random number and display its breakdown.</p>
+	<button onclick="generateNumber()">Generate Number</button>
+	<p id="generated-number"></p>
+	<p id="number-breakdown"></p>
+
+	<script>
+		function generateNumber() {
+			var randomNumber = Math.floor(Math.random() * 1001);
+			document.getElementById("generated-number").textContent = "Randomly generated number: " + randomNumber;
+			var digits = randomNumber.toString().padStart(3, '0').split('');
+			let breakdown;
+			if (digits[0] === '0') {
+				if (digits[1] === '0') {
+	
+					breakdown = `Breakdown: 0, 0, ${digits[2]}`;
+				} else {
+					
+					breakdown = `Breakdown: 0, ${digits[1]}0, ${digits[2]}`;
+				}
+			} else {
+				
+				breakdown = `Breakdown: ${digits[0]}00, ${digits[1]}0, ${digits[2]}`;
+			}
+
+			
+			document.getElementById("number-breakdown").textContent = breakdown;
+		}
+	</script>
+</body>
+</html>
